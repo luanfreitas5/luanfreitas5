@@ -4,7 +4,7 @@
   uses: Platane/snk@v3.3.0
   with:
     # github user name
-    github_user_name: 
+    github_user_name: luanfreitas5
     # github token used to fetch the contribution calendar. Default to the action token if empty.
     github_token: # optional, default is ${{ github.token }}
     # list of files to generate.
