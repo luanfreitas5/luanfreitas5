@@ -3,10 +3,7 @@
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=luanfreitas5&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luanfreitas5&layout=compact&langs_count=7&theme=tokyonight"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=luanfreitas5&theme=tokyonight" alt="GitHub Streak"/>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=luanfreitas5&theme=tokyonight" alt="GitHub Streak"/>
 </div>
 
 ## 🚀 Sobre mim
