@@ -71,18 +71,18 @@ Certificações em Data Science, Machine Learning, Deep Learning, SQL, Python e 
 
 <!-- Adicione aqui seus projetos principais -->
 ```
-🔗 [Nome do Projeto](link) - Breve descrição do projeto
+🔗 [UnBSense](https://github.com/luanfreitas5/UnBSense) - O projeto investiga o uso de modelos computacionais para identificar sinais de depressão em usuários de redes sociais, com foco em tweets em português. O objetivo é avaliar o impacto desses novos atributos e desenvolver um modelo de análise de sentimentos capaz de detectar comportamentos depressivos em postagens em português.
 🔗 [Nome do Projeto](link) - Breve descrição do projeto
 🔗 [Nome do Projeto](link) - Breve descrição do projeto
 ```
 
 ## 🌱 Atualmente
 
-- 🔭 Trabalhando em: **[Adicione seu projeto atual]**
-- 🌱 Aprendendo: **[Adicione as tecnologias que está estudando]**
-- 👯 Procuro colaborar em: **Projetos open source e inovadores**
-- 💬 Pergunte-me sobre: **Python, Java, JavaScript, desenvolvimento web**
-- ⚡ Fato curioso: **[Adicione algo interessante sobre você]**
+- 🔭 Trabalhando em: 
+- 🌱 Aprendendo: 
+- 👯 Procuro colaborar em: 
+- 💬 Pergunte-me sobre: 
+- ⚡ Fato curioso: 
 
 ## 📫 Como me encontrar
 
