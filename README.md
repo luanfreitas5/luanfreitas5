@@ -48,7 +48,11 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=luanfreitas5&theme=gotham&hide_border=true&locale=pt-br" alt="luanfreitas5" /></p>
 
-## Meu Gráfico de Contribuição
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luanfreitas5/luanfreitas5/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luanfreitas5/luanfreitas5/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/luanfreitas5/luanfreitas5/output/github-contribution-grid-snake.svg">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luanfreitas5/luanfreitas5/output/pacman-contribution-graph-dark.svg">
