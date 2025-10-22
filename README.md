@@ -1,108 +1,53 @@
-# 👋 Portfólio de Luan Mendes Gonçalves Freitas
-
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=luanfreitas5&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luanfreitas5&layout=compact&langs_count=7&theme=tokyonight"/>
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=luanfreitas5&theme=tokyonight" alt="GitHub Streak"/>
+  <img src="banner/github-header-banner.png" alt="Luan Freitas - Cientista de Dados: Python, IA, NLP e Big Data" style="max-width: 50%;">
 </div>
 
-## 🚀 Sobre mim
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=luanfreitas5&label=Visualizações+do+perfil&color=0e75b6&style=flat" alt="luanfreitas5" /> </p>
 
-Sou Cientista de Dados com formação em Ciência da Computação e atualmente cursando Mestrado em Computação Aplicada na Universidade de Brasília, na linha de pesquisa em **Ciência de Dados** pela Universidade de Brasília (UnB), com sólida experiência em análise de dados, aprendizado de máquina (machine learning), inteligência artificial (IA) e Big Data. Sou Pessoa com Deficiência (PCD) com Transtorno do Espectro Autista (TEA) - CID F84.5 e apaixonado por novas Tecnologias, inovações e desenvolvimento de soluções que impactam positivamente a sociedade.
-
-Tenho interesse em:
-- Modelagem estatística e Machine Learning aplicado em áreas com importância como finanças, educação e entre outras 📊  
-- Análise de séries temporais e precificação de ativos 💹  
-- Processamento de linguagem natural (NLP) 🧩  
-- Visualização de dados interativa com Plotly e Streamlit 📈 
-
-##  Habilidades Técnicas e Ferramentas
-
-### 🎓 Educação
-
-![UnB](https://img.shields.io/badge/-UnB-0033A0?style=for-the-badge&logo=unb&logoColor=white)
-Graduação em Ciência da Computação
-Mestrando em Computação Aplicada Linha de Pesquisa em Ciência de Dados
-
-![Alura](https://img.shields.io/badge/-Alura-2D3E50?style=for-the-badge&logo=alura&logoColor=white)
-Certificações em Data Science, Machine Learning, Deep Learning, Big Data, SQL, Python e outras tecnologias
-
-![Asimov Academy](https://img.shields.io/badge/-Asimov%20Academy-2D3E50?style=for-the-badge&logo=asimov&logoColor=white)
-Certificações em Data Science, Machine Learning, IA, Python e outras tecnologias
-
-![Datacamp](https://img.shields.io/badge/-Datacamp-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)
-Certificações em Data Science, Machine Learning, Deep Learning, SQL, Python e outras tecnologias
-
-### 🧑‍💻 Linguagens de Programação
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) 
-![C](https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-
-### 🖥️ Sistema Operacional e GPU
-![Windows](https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![Nvidia](https://img.shields.io/badge/-NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![Cuda](https://img.shields.io/badge/-CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-
-### 📊 Manipulação e Análise de Dados
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-### 📊 Visualização de Dados
-![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white) ![Seaborn](https://img.shields.io/badge/-Seaborn-4C72B0?style=for-the-badge&logo=seaborn&logoColor=white) ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-
-### 🤖 Machine Learning e Deep Learning
-![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white) ![Random Forest](https://img.shields.io/badge/-Random%20Forest-228B22?style=for-the-badge&logo=apache&logoColor=white) ![Decision%20Tree](https://img.shields.io/badge/-Decision%20Tree-228B22?style=for-the-badge&logo=apache&logoColor=white) ![SVM](https://img.shields.io/badge/-SVM-228B22?style=for-the-badge&logo=apache&logoColor=white) 
-![KNN](https://img.shields.io/badge/-KNN-228B22?style=for-the-badge&logo=apache&logoColor=white) ![MLP](https://img.shields.io/badge/-MLP-228B22?style=for-the-badge&logo=apache&logoColor=white) ![Logistic Regression](https://img.shields.io/badge/-Logistic%20Regression-228B22?style=for-the-badge&logo=apache&logoColor=white) ![Naive Bayes](https://img.shields.io/badge/-Naive%20Bayes-228B22?style=for-the-badge&logo=apache&logoColor=white) 
-![Gradient Boosting](https://img.shields.io/badge/-Gradient%20Boosting-228B22?style=for-the-badge&logo=apache&logoColor=white) ![AdaBoost](https://img.shields.io/badge/-AdaBoost-228B22?style=for-the-badge&logo=apache&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-228B22?style=for-the-badge&logo=apache&logoColor=white) 
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-D00000?style=for-the-badge&logo=keras&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![Transformers](https://img.shields.io/badge/-Transformers-00D1FF?style=for-the-badge&logo=transformers&logoColor=white) ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-### 🛠️ Ferramentas e Plataformas
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Eclipse IDE](https://img.shields.io/badge/-Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![Google Colab](https://img.shields.io/badge/-Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) ![Android Studio](https://img.shields.io/badge/-Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
-
-### 🗄️ Banco de Dados
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A5?style=for-the-badge&logo=mysql&logoColor=white) ![Nosql](https://img.shields.io/badge/-NoSQL-005A9C?style=for-the-badge&logo=nosql&logoColor=white)
-
-### 🤖 APIs
-![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white) ![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white) ![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![Spotify](https://img.shields.io/badge/-Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
-
-### 🤖 Inteligência Artificial
-![Agentes de IA](https://img.shields.io/badge/-Agentes%20de%20IA-412991?style=for-the-badge&logo=openai&logoColor=white) ![CrewAI](https://img.shields.io/badge/-CrewAI-FF5A50?style=for-the-badge&logo=crewai&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge&logo=langChain&logoColor=white) ![Engenharia de Prompts](https://img.shields.io/badge/-Engenharia%20de%20Prompts-412991?style=for-the-badge&logo=openai&logoColor=white) ![MCP](https://img.shields.io/badge/-MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white) 
-![LLMs](https://img.shields.io/badge/-LLMs-412991?style=for-the-badge&logo=openai&logoColor=white) ![RAG](https://img.shields.io/badge/-RAG-412991?style=for-the-badge&logo=openai&logoColor=white) ![Fine-Tuning](https://img.shields.io/badge/-Fine--Tuning-412991?style=for-the-badge&logo=openai&logoColor=white) ![Embeddings](https://img.shields.io/badge/-Embeddings-412991?style=for-the-badge&logo=openai&logoColor=white) ![Chatbots](https://img.shields.io/badge/-Chatbots-412991?style=for-the-badge&logo=openai&logoColor=white) ![Agno](https://img.shields.io/badge/-Agno-412991?style=for-the-badge&logo=openai&logoColor=white)
-
-## 🎯 Projetos em Destaque
-
-<!-- Adicione aqui seus projetos principais -->
-```
-🔗 [UnBSense](https://github.com/luanfreitas5/UnBSense) - O projeto investiga o uso de modelos computacionais para identificar sinais de depressão em usuários de redes sociais, com foco em tweets em português. O objetivo é avaliar o impacto desses novos atributos e desenvolver um modelo de análise de sentimentos capaz de detectar comportamentos depressivos em postagens em português.
-🔗 [Nome do Projeto](link) - Breve descrição do projeto
-🔗 [Nome do Projeto](link) - Breve descrição do projeto
-```
-
-## 🌱 Atualmente
-
-- 🔭 Trabalhando em: 
-- 🌱 Aprendendo: 
-- 👯 Procuro colaborar em: 
-- 💬 Pergunte-me sobre: 
-- ⚡ Fato curioso: 
-
-## 📫 Como me encontrar
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=luanfreitas5" alt="luanfreitas5" /></a> </p>
 
 <div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luanfreitas5/)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luanfreitas5)
-[![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FF6F20?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/luanfreitas5)
-[![Lattes](https://img.shields.io/badge/-Lattes-2D3E50?style=for-the-badge&logo=academia&logoColor=white)](https://lattes.cnpq.br/6416967593914864)
-
+  <img src="gif/Social Media Hello GIF by Jasper AI.gif" alt="Animação ilustrando um robo" height="200" loading="eager" />
 </div>
 
----
+-   🔭 Atualmente estou trabalhando em
+
+-   🌱 Atualmente estou aprendendo **Inteligência Generativa e Computação em Nuvem**
+
+-   👯 Procuro colaborar em **Em áreas importantes como finanças, educação e entre outras**
+
+-   🤝 Procuro ajuda com **Novos desafios**
+
+-   💬 Pergunte-me sobre **Ciência de dados e aprendizado de máquina**
+
+-   📫 Como entrar em contato comigo **luan.mgf@gmail.com**
+
+-   ⚡ Curiosidade **Sou apaixonado por aprender coisas novas da área de TI todos os dias!**
+
+-   📄 Saiba mais sobre minhas experiências **[Linkedin](https://www.linkedin.com/in/luanfreitas5/)**
+
+<h3 align="left">Conecte-se comigo:</h3>
+<p align="left">
+<a href="https://github.com/luanfreitas5" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="luanfreitas5" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/luanfreitas5" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="luanfreitas5" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/luan-freitas" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="luan-freitas" height="30" width="40" /></a>
+<a href="https://kaggle.com/luanfreitas5" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="luanfreitas5" height="30" width="40" /></a>
+<a href="https://fb.com/luan.freitas.21" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="luan.freitas.21" height="30" width="40" /></a>
+<a href="https://instagram.com/redluan21" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="redluan21" height="30" width="40" /></a>
+<a href="https://twitter.com/redluan21" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="redluan21" height="30" width="40" /></a>
+<a href="https://medium.com/luan.mgf" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="luan.mgf" height="30" width="40" /></a>
+<a href="https://youtube.com/LuanVideos10" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="LuanVideos10" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/c" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=c" alt="c" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/cplusplus" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cpp" alt="cplusplus" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/django" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=django" alt="django" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/figma" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=figma" alt="figma" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/flutter" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=flutter" alt="flutter" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/git" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/hadoop" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/huggingface" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/huggingface" alt="huggingface" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/java" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/jupyter" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/keras" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="keras" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/langchain" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="langchain" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/matplotlib" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mongodb" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mysql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/numpy" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/ollama" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/ollama" alt="ollama" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pandas" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pytorch" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=pytorch" alt="pytorch" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/scikit_learn" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=scikitlearn" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/seaborn" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/selenium" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=selenium" alt="selenium" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/sqlite" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=sqlite" alt="sqlite" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/streamlit" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="streamlit" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/tensorflow" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tensorflow" alt="tensorflow" width="40" height="40"/> </a></p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luanfreitas5&theme=gotham&show_icons=true&hide_border=true&layout=compact&locale=pt-br" alt="luanfreitas5" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=luanfreitas5&theme=gotham&show_icons=true&hide_border=true&count_private=true&locale=pt-br" alt="luanfreitas5" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=luanfreitas5&theme=gotham&hide_border=true&locale=pt-br" alt="luanfreitas5" /></p>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=luanfreitas5&color=blue&style=flat-square&label=Visualizações+do+perfil"/>
-</div>
-
-<div align="center">
-  
 **"A tecnologia é melhor quando aproxima as pessoas"** 💙
-
 </div>
