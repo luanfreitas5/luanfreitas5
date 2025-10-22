@@ -47,7 +47,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=luanfreitas5&theme=gotham&show_icons=true&hide_border=true&count_private=true&locale=pt-br" alt="luanfreitas5" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=luanfreitas5&theme=gotham&hide_border=true&locale=pt-br" alt="luanfreitas5" /></p>
-
-<div align="center">
-**"A tecnologia é melhor quando aproxima as pessoas"** 💙
-</div>
