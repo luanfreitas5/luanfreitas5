@@ -65,20 +65,24 @@ flowchart LR
 
 ## 🚀 Projetos em destaque
 
-Onze projetos ponta a ponta, cada um cobrindo um pilar diferente do ciclo de vida de ML —
-de explicabilidade de negócio a MLOps de produção, fairness, benchmark científico, LLMs locais,
-séries temporais e análise de dados públicos brasileiros.
+Cinco projetos que cobrem pilares diferentes do ciclo de vida de ML — MLOps, explicabilidade,
+fairness, benchmark científico e séries temporais. Os demais ficam em [Mais projetos](#mais-projetos).
+
+| Projeto | Problema | Resultado-chave | Stack principal |
+|---|---|---|---|
+| **[🛡️ Detecção de Fraude com Pipeline MLOps Completo](https://github.com/luanfreitas5/mlops-deteccao-fraude)** | Fraude em ~284k transações com desbalanceamento extremo (~0,17%) | 🟢 PR-AUC `0,815` (IC 95% `0,732`–`0,892`) · Recall `81,1%` no limiar de custo mínimo — ⚠️ baseline ainda não medido | `XGBoost` `DVC` `MLflow` `FastAPI` `Docker` `GitHub Actions` |
+| **[🔮 Previsão de Churn com Explicabilidade (Olist)](https://github.com/luanfreitas5/previsao-churn-explicavel)** | Identificar clientes com risco de não recomprar no marketplace Olist | 🟢 ROC-AUC `0,62` · Brier `0,0720` · PR-AUC `0,9919` (IC 95% `0,9897`–`0,9939`) vs. `0,9882` do baseline — ⚠️ prevalência de 98,8% infla a PR-AUC; sem teste de significância | `Polars` `LightGBM` `SHAP` `Fairlearn` `MLflow` `Streamlit` |
+| **[⚖️ Predição de Risco de Diabetes com Auditoria de Justiça](https://github.com/luanfreitas5/risco-diabetes-fairness)** | Triagem de risco de diabetes a partir do BRFSS 2015 (~253k respostas) | 🟢 ROC-AUC `0,8314` (IC 95% `0,8293`–`0,8335`, CV) vs. `0,8240` da regressão logística · maior disparidade de recall (escolaridade) `51 p.p.` | `LightGBM` `Fairlearn` `SHAP` `Streamlit` `Plotly` |
+| **[📊 Benchmark de Análise de Sentimento em PT-BR](https://github.com/luanfreitas5/sentimento-ptbr-benchmark)** | BERTimbau realmente supera baselines clássicos? E generaliza entre domínios? | 🟢 F1-macro in-domain `0,890` (BERTimbau) vs. `0,843` (TF-IDF) · fora do domínio `0,796` vs. `0,722` — ⚠️ McNemar ainda não gerado | `BERTimbau` `Transformers` `scikit-learn` `MLflow` `uv` |
+| **[📉 Previsão do IPCA com Backtest Walk-Forward](https://github.com/luanfreitas5/previsao-ipca-backtest)** | Algum modelo, usando só informação disponível na data, supera o Boletim Focus na previsão do IPCA mensal? | 🟢 Nenhum modelo superou o Focus: RMSE `0,257` (IC 95% `0,220`–`0,293`) vs. `0,334` do melhor modelo (AutoARIMA) em 1 mês (Diebold-Mariano p < 0,001); empate estatístico em 6 e 12 meses | `statsforecast` `LightGBM` `MLflow` `Pandera` |
+
+### Mais projetos
 
 | Projeto | Problema | Resultado principal | Stack principal |
 |---|---|---|---|
-| **[🔮 Previsão de Churn com Explicabilidade (Olist)](https://github.com/luanfreitas5/previsao-churn-explicavel)** | Identificar clientes com risco de não recomprar no marketplace Olist | 🟢 PR-AUC `0,9919` (IC 95% `0,9897`–`0,9939`) vs. `0,9882` do baseline (CV, sem teste de significância) · ROC-AUC `0,62` · Brier `0,0720` — ⚠️ prevalência de 98,8% infla a PR-AUC | `Polars` `LightGBM` `SHAP` `Fairlearn` `MLflow` `Streamlit` |
-| **[🛡️ Detecção de Fraude com Pipeline MLOps Completo](https://github.com/luanfreitas5/mlops-deteccao-fraude)** | Fraude em ~284k transações com desbalanceamento extremo (~0,17%) | 🟢 PR-AUC `0,815` (IC 95% `0,732`–`0,892`) · Recall `81,1%` no limiar de custo mínimo (`0,0402`) · ROC-AUC `0,968` — baseline ainda não medido | `XGBoost` `DVC` `MLflow` `FastAPI` `Docker` `GitHub Actions` |
-| **[⚖️ Predição de Risco de Diabetes com Auditoria de Justiça](https://github.com/luanfreitas5/risco-diabetes-fairness)** | Triagem de risco de diabetes a partir do BRFSS 2015 (~253k respostas) | 🟢 ROC-AUC `0,8314` (IC 95% `0,8293`–`0,8335`, CV) vs. `0,8240` da regressão logística · Recall `46,9%` @ limiar 0,30 · maior disparidade de recall (escolaridade) `51 p.p.` | `LightGBM` `Fairlearn` `SHAP` `Streamlit` `Plotly` |
-| **[📊 Benchmark de Análise de Sentimento em PT-BR](https://github.com/luanfreitas5/sentimento-ptbr-benchmark)** | BERTimbau realmente supera baselines clássicos? E generaliza entre domínios? | 🟢 F1-macro in-domain `0,890` (BERTimbau) vs. `0,843` (TF-IDF) · fora do domínio `0,796` vs. `0,722` · gap de generalização `9,5 p.p.` vs. `12,1 p.p.` · McNemar ainda não gerado | `BERTimbau` `Transformers` `scikit-learn` `MLflow` `uv` |
 | **[🤖 Análise de Emoção e Tópicos em Tweets com LLM Local](https://github.com/luanfreitas5/tweets-emocao-llm-local)** | Emoção e tópicos em ~800k tweets em português | 🟢 F1-macro `0,362` (IC 95% `0,361`–`0,363`; baseline trivial `0,266`) · meta de `0,70` não atingida · `31` tópicos, porém modelagem degenerada (37,9% outliers) · tweets/s não medido | `BERTopic` `Ollama` `Llama 3.1` `FastAPI` `Pydantic` |
 | **[📈 Simulador do Tesouro Direto](https://github.com/luanfreitas5/simulador-tesouro-direto)** | Quanto sobra ao investidor após imposto, custódia e inflação? Curva de juros histórica e rentabilidade bruta, líquida e real | 🟢 Pipeline em ~5 s sobre `177.434` preços (2004–2026) com contratos Pandera aprovados · curva Prefixada **invertida** em 15/10/2026 (`13,37%` em 0,2 ano vs. `12,64%` em 2,2 anos) e IPCA+ plana (`6,7%`–`6,8%` real) · simulador bruto/líquido/real vs. Selic | `Polars` `Pandera` `uv` `GitHub Actions` `MkDocs` |
 | **[🏛️ Mapa Temático do Congresso](https://github.com/luanfreitas5/mapa-tematico-congresso-nlp)** | Quais temas dominam a Câmara dos Deputados (57ª legislatura) e quem são os atores centrais nas redes de coautoria e de votos? | 🟢 Coerência c_v `0,739` (IC 95% `0,702`–`0,774`) em `17.482` ementas (`122` tópicos, 25,3% de ruído) e `0,666` em `44.269` discursos (`125` tópicos, 54,1% de ruído) · rede de coautoria com `617` deputados e `9.230` arestas · rede de votos com `22` partidos em `2` comunidades | `BERTopic` `sentence-transformers` `NetworkX` `Pandera` |
-| **[📉 Previsão do IPCA com Backtest Walk-Forward](https://github.com/luanfreitas5/previsao-ipca-backtest)** | Algum modelo, usando só informação disponível na data, supera o Boletim Focus na previsão do IPCA mensal? | 🟢 Nenhum modelo superou o Focus: RMSE `0,257` (IC 95% `0,220`–`0,293`) vs. `0,334` do melhor modelo (AutoARIMA) em 1 mês (Diebold-Mariano p < 0,001); empate estatístico em 6 e 12 meses | `statsforecast` `LightGBM` `MLflow` `Pandera` |
 | **[🎓 Radar da Educação Municipal](https://github.com/luanfreitas5/radar-educacao-municipal)** | Que tipologias de município emergem de infraestrutura escolar e contexto socioeconômico? O IDEB se agrupa no território? | 🟢 `4` tipologias estáveis (ARI `0,98`, IC 95% `0,95`–`0,99`; ⚠️ silhouette baixa, `0,189`) · IDEB difere entre grupos (Kruskal-Wallis, ε² `0,24` anos iniciais / `0,19` finais) · autocorrelação espacial forte (I de Moran `0,625` / `0,591`) | `scikit-learn` `UMAP` `geobr` `Polars` |
 | **[🎯 Desempenho no ENEM e Equidade](https://github.com/luanfreitas5/desempenho-enem-equidade)** | Quanto o perfil socioeconômico explica a nota do ENEM, e o erro do modelo é equânime entre grupos? | 🟢 R² `0,330` (IC 95% `0,325`–`0,335`) com XGBoost vs. `0,319` do OLS (RMSE `70,98`) · perfil socioeconômico explica só ~33% da variância · renda e computador dominam o SHAP · gap de renda (até 1 SM vs. mais de 6 SM) `−128,9` pontos · modelo superestima indígenas (`+32,5`) e escola pública (`+15,0`) | `Polars` `XGBoost` `SHAP` `Fairlearn` |
 | **[💹 Painel Macro BCB](https://github.com/luanfreitas5/painel-macro-bcb)** | O quanto a mediana do Focus erra o IPCA mensal, e há viés sistemático por horizonte? | 🟢 MAE do Focus cresce de `0,082` p.p. (mês corrente) para `0,265` p.p. (12 meses) e satura · viés levemente negativo (`−0,088` p.p. em 12 meses, IC exclui zero) · ⚠️ ICs ignoram autocorrelação dos erros | `Streamlit` `Polars` `python-bcb` `uv` |
@@ -111,7 +115,8 @@ supervisionados: **Random Forest, Gradient Boosting, SVM (RBF), MLP, AdaBoost, B
 Naive Bayes, Regressão Logística e ensembles por votação** (hard/soft), com tratamento de
 desbalanceamento via `class_weight` e avaliação por curvas ROC e Precision-Recall.
 
-<!-- PREENCHER: números da Monografia_TCC.pdf / Artigo PIBIC.pdf. -->
+<!--
+PREENCHER: números da Monografia_TCC.pdf / Artigo PIBIC.pdf e reativar este bloco.
 > **⬜ Resultados.**
 >
 > - Usuários coletados: `__` (`__` no grupo depressivo / `__` no controle)
@@ -119,6 +124,7 @@ desbalanceamento via `class_weight` e avaliação por curvas ROC e Precision-Rec
 > - Desempenho pré-pandemia vs. pandemia: `0,__` vs. `0,__`
 > - Contribuição dos **5 novos atributos**: `+__ p.p.` sobre o conjunto de De Choudhury
 > - Atributos mais discriminativos na seleção de features: `___`, `___`, `___`
+-->
 
 `Python` · `scikit-learn` · `pandas` · `NLTK` · `spaCy` · `snscrape` · `Jupyter`
 
@@ -173,43 +179,15 @@ Padrões de engenharia que aplico de forma consistente em todos os projetos acim
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=luanfreitas5&layout=compact&theme=gotham&locale=pt-br&hide_border=true" height="160" alt="Gráfico de linguagens mais usadas" />
 </div>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=luanfreitas5&locale=pt-br&mode=daily&theme=gotham&hide_border=true" height="160" alt="Gráfico de sequência de commits" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app?username=luanfreitas5&theme=gotham&row=1&column=7&margin-w=8&no-frame=true&locale=pt-br" alt="Troféus de conquistas do GitHub" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=luanfreitas5&theme=gotham&area=true&hide_border=true&locale=pt-br" alt="Gráfico de atividade de contribuições" />
-</div>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luanfreitas5/luanfreitas5/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luanfreitas5/luanfreitas5/output/pacman-contribution-graph.svg">
   <img alt="Gráfico animado Pac-Man de contribuições no GitHub" src="https://raw.githubusercontent.com/luanfreitas5/luanfreitas5/output/pacman-contribution-graph.svg">
 </picture>
 
-<!-- 
 ---
 
 ## 📫 Vamos conversar
 
-Estou aberto a oportunidades e colaborações em **Ciência de Dados**, **Engenharia de Machine Learning**
-e **IA Aplicada**.
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/luanfreitas5/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/luanfreitas5"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://kaggle.com/luanfreitas5"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"></a>
-  <a href="https://stackoverflow.com/users/luan-freitas"><img src="https://img.shields.io/badge/Stack_Overflow-F58025?style=flat-square&logo=stackoverflow&logoColor=white" alt="Stack Overflow"></a>
-  <a href="https://medium.com/luan.mgf"><img src="https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium"></a>
-  <a href="https://youtube.com/LuanVideos10"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube"></a>
-  <a href="https://twitter.com/redluan21"><img src="https://img.shields.io/badge/Twitter-000000?style=flat-square&logo=x&logoColor=white" alt="Twitter"></a>
-  <a href="https://instagram.com/redluan21"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
-</p>
-
-<sub>⚡ Curiosidade: sou apaixonado por aprender algo novo de tecnologia todos os dias.</sub>
-
--->
+Aberto a oportunidades e colaborações em **Ciência de Dados**, **Engenharia de Machine Learning**
+e **IA Aplicada**. O melhor caminho é o [LinkedIn](https://www.linkedin.com/in/luanfreitas5/).
