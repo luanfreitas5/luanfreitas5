@@ -105,7 +105,7 @@ comportamentais associados à depressão**, comparando dois recortes temporais: 
 (2018–2019)** e **pandemia (2020–2021)**.
 
 **Contribuição.** Além dos **10 atributos comportamentais** consolidados na literatura (De Choudhury et al.),
-o trabalho propõe e avalia **5 novos atributos**. Cada atributo é sumarizado em **4 vetores de
+o trabalho propõe e avalia **5 novos atributos** (caracteres orientais, emojis, links, mídia e curtidas). Cada atributo é sumarizado em **4 vetores de
 características** — média, variância, média móvel ponderada e entropia — totalizando **60 features por
 dataset**.
 
@@ -115,16 +115,13 @@ supervisionados: **Random Forest, Gradient Boosting, SVM (RBF), MLP, AdaBoost, B
 Naive Bayes, Regressão Logística e ensembles por votação** (hard/soft), com tratamento de
 desbalanceamento via `class_weight` e avaliação por curvas ROC e Precision-Recall.
 
-<!--
-PREENCHER: números da Monografia_TCC.pdf / Artigo PIBIC.pdf e reativar este bloco.
-> **⬜ Resultados.**
+> **🟢 Resultados** (teste, 70/15/15 por usuário; detalhes e limitações no [README do UnBSense](https://github.com/luanfreitas5/UnBSense#-resultados))
 >
-> - Usuários coletados: `__` (`__` no grupo depressivo / `__` no controle)
-> - Melhor classificador: `___` — acurácia `__%` · F1 `0,__` · AUC `0,__`
-> - Desempenho pré-pandemia vs. pandemia: `0,__` vs. `0,__`
-> - Contribuição dos **5 novos atributos**: `+__ p.p.` sobre o conjunto de De Choudhury
-> - Atributos mais discriminativos na seleção de features: `___`, `___`, `___`
--->
+> - Base: `71.232` usuários na pré-pandemia (`37.985` depressão / `33.247` controle) e `70.370` na pandemia (`36.801` / `33.569`), rotulados por autodeclaração pública
+> - Melhor classificador: **Gradient Boosting** — F1 `81,6%` (pré-pandemia) e `79,9%` (pandemia), média `80,75%`; baseline de Regressão Logística em `73,7%` / `74,9%` (validação)
+> - Os **5 novos atributos não melhoraram** o modelo: ΔF1 ≤ `0,4` p.p. sobre os 10 atributos de De Choudhury, e por isso foram removidos do teste final
+> - Pandemia: sem evidência estatística de aumento de depressão atribuível à COVID-19 (sem controle de variáveis de confusão)
+> - ⚠️ F1 de ponto único, sem IC nem teste de significância · `39–43%` dos controles classificados como depressivos · rótulo é autodeclaração, não diagnóstico · possível vazamento de rótulo a verificar
 
 `Python` · `scikit-learn` · `pandas` · `NLTK` · `spaCy` · `snscrape` · `Jupyter`
 
