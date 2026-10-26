@@ -171,9 +171,14 @@ Padrões de engenharia que aplico de forma consistente em todos os projetos acim
 
 ## 📈 Atividade no GitHub
 
-<div align="center">
+<!-- ><div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=luanfreitas5&show_icons=true&include_all_commits=true&theme=gotham&locale=pt-br&hide_border=true" height="160" alt="Gráfico de estatísticas do GitHub" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=luanfreitas5&layout=compact&theme=gotham&locale=pt-br&hide_border=true" height="160" alt="Gráfico de linguagens mais usadas" />
+</div> -->
+
+<div align="center">  
+  <img width="49%" height="195px" src="https://github-stats-extended.vercel.app/api?username=luanfreitas5&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Luan Freitas github stats"/> 
+  <img width="41%" height="195px" src="https://github-stats-extended.vercel.app/api/top-langs/?username=luanfreitas5&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
 </div>
 
 <picture>
